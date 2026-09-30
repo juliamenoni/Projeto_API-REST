@@ -87,7 +87,7 @@ Dados enviados
 ```
 
 Registro da execução:
-![alt text](image.png)
+i
 
 Retorno:
 ```json
