@@ -69,9 +69,10 @@ O campo id funciona como chave primária da tabela e é gerado automaticamente p
 
 > concluido
 
-### Testes das requisições HTTP
+---
+## Testes das requisições HTTP
 
-1. POST – Inserção de chamado
+**1. POST – Inserção de chamado**
 
 O POST é responsável por adicionar um novo chamado ao sistema.
 
@@ -87,7 +88,7 @@ Dados enviados
 ```
 
 Registro da execução:
-i
+![alt text](image-4.png)
 
 Retorno:
 ```json
@@ -95,8 +96,9 @@ Retorno:
     "Mensagem": "Novo chamado cadastrado com sucesso!"
 }
 ```
+--- 
 
-2. GET – Consulta dos chamados
+**2. GET – Consulta dos chamados**
 
 O método GET permite recuperar os chamados que estão registrados no banco de dados.
 
@@ -117,8 +119,9 @@ Exemplo de retorno:
     }
 ]
 ```
+---
 
-3. PUT – Alteração de chamado
+**3. PUT – Alteração de chamado**
 
 O método PUT é utilizado quando é necessário modificar os dados de um chamado que já está cadastrado. O registro é localizado utilizando seu id.
 
@@ -145,7 +148,7 @@ Retorno:
 }
 ```
 
-4. DELETE – Remoção de chamado
+**4. DELETE – Remoção de chamado**
 
 O DELETE é utilizado para retirar um chamado do banco de dados. Para identificar qual registro será removido, é informado o seu id.
 
